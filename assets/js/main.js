@@ -82,7 +82,7 @@ $(document).ready(function () {
   });
 
 
-  //LOADER COM SCROL ---- PROBLEMA AQUI ==============================
+  //LOADER COM SCROL 
 
   let dataAreaOffset = $('#data-area').offset();
   let stop = 0; // CONTROLAR REPETIÇÃO
@@ -106,8 +106,10 @@ $(document).ready(function () {
   // EFEITO PARALLAX
   //  CARREGAR TODAS AS IMAGENS EVITAR BUGS
   setTimeout(function(){
+
     $('#data-area').parallax({imageSrc:'../assets/imgs/parallax/vegetables.jpg'});
-    $('#apply-area').parallax({imageSrc:'../assets/imgs/parallax/background.png'})
+    $('#apply-area').parallax({imageSrc:'../assets/imgs/parallax/background.png'});
+
   }, 250);
 
   // FILTER PRODUCTS
