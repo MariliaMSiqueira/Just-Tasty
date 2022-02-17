@@ -106,8 +106,8 @@ $(document).ready(function () {
   // EFEITO PARALLAX
   //  CARREGAR TODAS AS IMAGENS EVITAR BUGS
   setTimeout(function(){
-    $('#data-area').parallax({imageSrc:'../../assets/imgs/parallax/vegetables.parallax.jpg'});
-    $('#apply-area').parallax({imageSrc:'../../assets/imgs/parallax/BG.png'})
+    $('#data-area').parallax({imageSrc:'../assets/imgs/parallax/vegetables.jpg'});
+    $('#apply-area').parallax({imageSrc:'../assets/imgs/parallax/background.png'})
   }, 250);
 
   // FILTER PRODUCTS
