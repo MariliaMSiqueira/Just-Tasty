@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ESTILOS GERAIS */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: grey;
+  font-size: 14px;
+}
+
+/* NAV BAR */
+
+header,
+.navbar {
+  height: 100px;
+  background-color: rgba(255, 230, 0, 0.918);
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand > img {
+  width: 400px;
+}
+
+.navbar-brand {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+#navbar-links a {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 0, 0);
+  font-weight: 700;
+  font-size: 20px;
+  transition: .4s;
+}
+
+#navbar-links a:hover {
+  
+  color: #444;
+  cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
+  font-size: 1.1rem;
+}
+
+/* SLIDER CAROUSEL */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 85vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 20%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+/* .carousel-item > img {
+  max-width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+.main-btn {
+  background-color: #ff0000;
+  color: #ffff00;
+  text-transform: uppercase;
+  width: 300px;
+  height: 70px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  border-color: rgba(255, 0, 0, 0.568);
+  
+  background-color: rgba(255, 0, 0, 0.568);
+}
+
+.carousel-indicators .active {
+  background-color: yellow;
+}
+
+/* ABOUT AREA */
+
+/* ARROW ICON */
+#about-list ion-icon {
+  color: green;
+  margin-right: 15px;
+}
+
+/* CONTAINER */
+#about-area {
+  background-color: #f9f9f9;
+}
+
+/* MAIN TITLE */
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* UNDERLINE */
+.main-title::after {
+  content: '';
+  border-top: 2px solid red;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42%;
+}
+
+#about-area .container .under{
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+/* TITLE */
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ABOUT LIST */
+
+#about-area .img > img {
+height: 100%;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #444;
+}
+
+/* PRODUCTS */
+
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+  transition: 0.4s;
+}
+
+.service-box i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.service-box h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i,
+.service-box:hover > h4 {
+  color: red;
+}
+
+/* DADOS CIRCLE */
+
+.circle-box div {
+  padding: 0 40px;
+}
+
+.progressbar-text {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#data-area p {
+  color: rgb(229, 255, 0);
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+/*  TEAM */
+
+.card-body {
+  text-align: center;
+}
+
+/* JOB */
+
+#apply-area{
+  height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+  height: 100%;
+}
+
+#apply-area .apply-box{
+  text-align: center;
+  padding: 70px 50px;
+  letter-spacing: 2px;
+}
+
+#jt{
+  background: url(../imgs/JT/JT.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+#bg h4, #bg p{
+  color: #fff;
+}
+
+#bg h4{
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#bg p{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#apply-btn{
+  display: block;
+  color: #fff;
+  height: auto;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: rgba(255, 0, 0, 0.815);
+  border-color: red;
+  transition: 0.5s;
+}
+
+#apply-btn:hover{
+  border-color: rgba(255, 255, 255, 0.575);
+  background-color: rgba(255, 0, 0, 0.568);
+}
+
+/* PRODUCTS FILTER */
+
+.product-box{
+  margin-bottom: 30px;
+}
+
+#filter-btn-box{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#product-area .filter-btn{
+  color: #444;
+  border: 1px solid #444;
+  background: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+#product-area .filter-btn.active, #product-area .filter-btn:hover{
+  color: #fff;
+  background-color: #ff0000;
+  border-color:#ffff00;
+}
+
+/* NEWS */
+
+#news-area{
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+#news-area p{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgb(0, 204, 255);
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid rgb(0, 204, 255);
+  background-color:rgb(0, 204, 255);
+  text-transform: uppercase;
+  color: #fff;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  font-weight: 600;
+  transition: .5s;
+}
+
+#news-btn:hover{
+  background-color: #fff;
+  color: rgb(0, 204, 255);
+}
+
+/* CALL THE ACTION */
+
+#call-area {
+  background-color:rgba(255, 166, 0, 0.644);
+  text-transform: uppercase;
+}
+
+#call-area .container{
+  padding: 40px 100px;
+}
+
+#call-area .row{
+  display: block;
+  text-align: center;
+}
+
+#call-area p{
+  color: #444;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  display: inline;
+  height: 60px;
+  line-height: 60px;
+}
+
+#call-area #call-btn{
+  background: rgb(255, 0, 0);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 30px;
+  width: auto;
+  line-height: 1px;
+  letter-spacing: 3px;
+}
+
+#call-area #call-btn:hover{
+  
+  color: black;
+  background-color: #f9f9f9;
+}
+
+
+/* FOOTER */
+/* CONTACT DATAS */
+
+#contact-area {
+  text-align: center;
+}
+
+.contact-box{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid red;
+  text-align: center;
+}
+
+
+.contact-box ion-icon{
+  color: #444;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+.contact-box p {
+  font-size: 1rem;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: black;
+}
+
+
+
+/* MAP GOOGLE */
+
+#map-area{
+  background-color: #f9f9f9;
+}
+
+#map-area .map-responsive{
+  overflow: hidden;
+  padding-bottom: 60%;
+  position: relative;
+  height: 0;
+  margin-right: 30px;
+}
+#map-area .map-responsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-box-local{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-box-local p{
+  font-size: 1rem;
+} 
+
+.contact-box-local ion-icon{
+  color: #444;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+
+/* FORM CONTACT */
+
+#form-area p{
+ font-size: 22px;
+}
+
+#form-area .container{
+  width: 700px;
+}
+
+
+#contact-form input[type="text"], #contact-form input[type="email"],#contact-form textarea{
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+#contact-form .main-btn{
+  width: 160px;
+  height: 50px;
+  font-size: 1rem;
+  line-height:5px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#contact-form .main-btn:hover{
+  color: #fff;
+  background-color: red;
+  border-color:rgba(255, 0, 0, 0.247);
+}
+
+
+/* COPYRIGHT */
+
+#copy-area{
+  background-color: #f1f1f1;
+}
+
+#copy-area .container{
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p{
+  margin-bottom: 0;
+}
+
+#copy-area .container a{
+  font-weight: bold;
+  color: #444;
+  transition: .5s;
+}
+
+#copy-area .container a:hover{
+  text-decoration: none;
+  color: red;
+}
