@@ -107,8 +107,8 @@ $(document).ready(function () {
   //  CARREGAR TODAS AS IMAGENS EVITAR BUGS
   setTimeout(function(){
 
-    $('#data-area').parallax({imageSrc:'../assets/imgs/parallax/vegetables.jpg'});
-    $('#apply-area').parallax({imageSrc:'../assets/imgs/parallax/background.png'});
+    $('#data-area').parallax({imageSrc:'./assets/imgs/parallax/vegetables.jpg'});
+    $('#apply-area').parallax({imageSrc:'./assets/imgs/parallax/background.png'});
 
   }, 250);
 
