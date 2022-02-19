@@ -38,6 +38,7 @@ header,
   width: 400px;
 }
 
+
 .navbar-brand {
   padding: 10px;
   color: #fff;
@@ -75,8 +76,9 @@ header,
 
 #mainSlider .carousel-inner,
 #mainSlider .carousel-item {
-  height: 85vh;
+  height: 80vh;
 }
+
 
 #mainSlider .carousel-caption {
   top: 20%;
@@ -545,4 +547,130 @@ height: 100%;
 #copy-area .container a:hover{
   text-decoration: none;
   color: red;
+}
+
+
+
+/* RESPONSIVE */
+/* TABLET  */
+/* RESOLUÇÕES IGUAIS OU MENORES QUE 768PX */
+@media(max-width: 768px ){
+
+  /* GERAIS */
+.container{
+  padding: 50px 0;
+}
+
+
+  /* NAVBAR TOGGLER */
+
+  .navbar-toggler{
+    background-color: rgba(255, 0, 0, 0.815);
+    border-radius: 5px;
+  }
+  
+  .navbar-collapse{
+    background-color: rgba(255, 230, 0, 0.918);
+    border-radius: 5px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+  }
+
+
+  /* SLIDER */
+  #mainSlider .carousel-inner, 
+  #mainSlider .carousel-item{
+    width: 100%;
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2{
+    font-size: 35px;
+  }
+
+  #mainSlider .carousel-caption p{
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+
+  /* ABOUT AREA */
+
+  #about-area .img > img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 180px;
+  }
+
+  #about-area .about-title  {
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+  }
+
+  /* PROGRESS BAR */
+  
+  .circle-box div {
+    padding: 0 10px;
+  }
+
+  #data-area p {
+    font-size: 16px;
+  }
+
+  /* TEAM */
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+
+  .card-body {
+    padding-left:5px;
+    padding-right: 5px;
+  }
+
+
+  /* JOB */
+  #apply-area .apply-box{
+    padding: 50px 25px;
+  }
+
+  /* NEWS AREA */
+  #news-area p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container{
+    padding: 30px;
+  }
+
+  #call-area p,
+  #call-area #call-btn{
+    font-size: 16px;
+  }
+
+  #call-area #call-btn{
+    height: 10px;
+  }
+
 }
