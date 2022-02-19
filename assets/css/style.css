@@ -76,7 +76,8 @@ header,
 
 #mainSlider .carousel-inner,
 #mainSlider .carousel-item {
-  height: 80vh;
+  height: 85vh;
+
 }
 
 
@@ -496,18 +497,19 @@ height: 100%;
 #form-area p{
  font-size: 22px;
 }
-
-#form-area .container{
-  width: 700px;
+#form-area .col-md-10 {
+  max-width: 100%;
 }
 
 
-#contact-form input[type="text"], #contact-form input[type="email"],#contact-form textarea{
+
+
+#form-area input[type="text"], #form-area input[type="email"],#form-area textarea{
   margin-bottom: 15px;
   border-radius: 5px;
 }
 
-#contact-form .main-btn{
+#form-area .main-btn{
   width: 160px;
   height: 50px;
   font-size: 1rem;
@@ -516,7 +518,7 @@ height: 100%;
   margin-top: 15px;
 }
 
-#contact-form .main-btn:hover{
+#form-area .main-btn:hover{
   color: #fff;
   background-color: red;
   border-color:rgba(255, 0, 0, 0.247);
@@ -671,6 +673,178 @@ height: 100%;
 
   #call-area #call-btn{
     height: 10px;
+  }
+
+  /* FORM AREA */
+
+  #form-area .col-md-10 {
+    max-width: 100%;
+  }
+
+}
+
+@media(max-width: 425px){
+
+  /* GERAIS */
+
+  .container{
+    height: 100%;
+  }
+
+  /* NAVBAR */
+  
+  .navbar-brand > img {
+    width: 180px;
+    height: 50px;
+  }
+
+ header .navbar {
+   width: 425px;
+ }
+
+ /* SLIDER */
+
+ #mainSlider{
+   height: auto;
+ }
+
+ #mainSlider .carousel-caption{
+   top: 5%;
+ }
+
+ #mainSlider .carousel-caption h2{
+   font-size: 20px;
+   margin-top: 25px;
+   margin-bottom: 70px;
+ }
+ 
+ #mainSlider .carousel-caption p{
+   display: none;
+ }
+
+ .carousel-caption .main-btn{
+   font-size: 13px;
+    padding: 12px 24px;
+  
+ }
+
+  /* ABOUT AREA */
+ .main-title{
+   font-size: 30px;
+ }
+
+ #about-area .about-title{
+   font-size: 15px;
+   text-align: center;
+ }
+
+ #about-area p{
+   text-align: justify;
+ }
+
+ #about-list li{
+   letter-spacing: 0;
+ }
+
+ #about-list ion-icon{
+   margin-right:12px;
+ }
+
+
+ #about-area .img > img{
+   margin-top:0 ;
+   margin-bottom: 30px;
+ }
+
+ /* PROGRESS BAR */
+
+ .circle-box {
+   width: 50%;
+ }
+
+ /* TEAM */
+
+ #time-area .col-md-3{
+   width: 50%;
+   margin-bottom: 30px;
+ }
+
+ /* JOB */
+
+  #apply-area {
+    height: auto;
+  }
+
+  #apply-area #jt {
+    display: none;
+  }
+
+  #apply-area #apply-btn {
+    font-size: 13px;
+    padding: 12px 24px;
+  }
+  
+  /* PRODUCTS FILTER */
+
+  #product-area .filter-btn{
+    margin-bottom: 20px;
+  
+  }
+
+  #filter-btn-box{
+    justify-content: center;
+  }
+
+  .product-box {
+    width: 50%;
+  }
+
+  /* NEWS */
+
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p{
+    font-size: 16px;
+  }
+
+  #email-input{
+    width: 80%;
+  }
+
+  /* CALL ACTION */
+  #call-area p,
+  #call-area #call-btn{
+  font-size: 14px;
+  letter-spacing: 0;
+  margin: 0;
+  width: 50%;
+  }
+
+  /* CONTACT */
+  .contact-box{
+    border: none;
+    margin-bottom: 0;
+  }
+
+  /* FORM AREA */
+
+  #form-area input[type="text"], #form-area input[type="email"],#form-area textarea{
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  #form-area .main-btn{
+    font-size: 16px;
+    
+  }
+
+  /* GOOGLE MAPS */
+
+  #map-area .map-responsive{
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 
 }
