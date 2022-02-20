@@ -28,7 +28,7 @@ O projeto trata-se de um site feito em bootstrap para uma lanchonete fictícia. 
  ---
 <div align="center"><h2>Habilidades adquiridas ✔</h2></div>
 
-Almejando a carreira de **WEB Developer**, estou estruturando os alicerces nas linguagens/libraries:
+Almejando a carreira de **WEB Developer**, estou estruturando os alicerces nas tecnologias:
 1. [x] HTML;
 1. [x] CSS;
 2. [x] JavaScript;
